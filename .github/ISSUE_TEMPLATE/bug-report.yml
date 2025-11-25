@@ -2,7 +2,6 @@ name: Bug Report
 description: Tell us what went wrong with this bug report form.
 title: "[Bug]: "
 labels: ["bug"]
-type: issue
 body:
   - type: markdown
     attributes:
@@ -40,7 +39,7 @@ body:
       label: Bug type
       description: Is it an intermittent or a consistent bug
       options:
-        - Consistent (Default)
+        - Consistent
         - Intermittent
         - I don't know, I'm useless
       default: 0
@@ -61,7 +60,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - Latest (Default)
+        - Latest
         - 1.0.0.1
         - How would I know?
       default: 0
